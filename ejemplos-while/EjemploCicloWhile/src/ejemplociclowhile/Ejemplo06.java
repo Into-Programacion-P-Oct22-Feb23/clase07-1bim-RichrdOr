@@ -1,4 +1,4 @@
-/*
+                            /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -32,7 +32,10 @@ public class Ejemplo06 {
         while (bandera) {
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
-
+            
+            // EL if funciona como un control para que si se pone un numero
+            // mayor a 20 asuma que el valor es 2
+            
             if (calificacion > 20) {
                 calificacion = 20;
             }

@@ -1,4 +1,4 @@
-/*
+            /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -34,7 +34,8 @@ public class Ejemplo08 {
             System.out.println("Ingrese calificación:");
             calificacion = entrada.nextDouble();
             suma_total = suma_total + calificacion;
-            contador = contador + 1;
+            contador = contador + 1; // SE USA EL COPNTADOR PARA SABER CUANTAS VECES SE VA A EJECUTAR
+           
 
             entrada.nextLine(); // Ojo usamos el limpiador del scanner (buffer)
 
